@@ -1,0 +1,15 @@
+# Ocultar conexiones y credenciales de BD
+**/connections/connection.php
+
+# Ocultar dependencias de Node.js
+**/node_modules/
+**/build/
+
+# Ocultar entornos virtuales de Python
+**/venv/
+**/__pycache__/
+
+# Archivos del sistema y del editor
+.vscode/
+.DS_Store
+Thumbs.db
