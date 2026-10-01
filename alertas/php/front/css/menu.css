@@ -1,8 +1,73 @@
-        body { background-color: #f4f7f6; }
-        .main-container { max-width: 1050px; margin: 40px auto; }
-        .nav-pills .nav-link.active { background-color: #0d6efd; font-weight: bold; }
-        .nav-pills .nav-link { color: #495057; background: #ffffff; border: 1px solid #dee2e6; margin-right: 4px; margin-bottom: 5px; }
-        .tab-content { background: #ffffff; border: 1px solid #dee2e6; border-top: none; border-radius: 0 0 8px 8px; padding: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
-        .ui-datepicker-trigger { display: inline-block; padding-left: 5px; vertical-align: middle; cursor: pointer; }
-        .chart-card { transition: transform 0.2s; border-left: 4px solid #0d6efd; }
-        .chart-card:hover { transform: translateY(-3px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.08); }
+/* front/css/menu.css - Estilo Moderno / Minimalista */
+
+body { 
+    background-color: #f8f9fa; 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.main-container { 
+    max-width: 1000px; 
+    margin: 30px auto; 
+}
+
+/* Estilo de las pestañas tipo moderno (Pills limpias) */
+.nav-pills .nav-link { 
+    color: #495057; 
+    background: #ffffff; 
+    border: 1px solid #e9ecef; 
+    margin-right: 6px; 
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #f1f3f5;
+    color: #212529;
+}
+
+.nav-pills .nav-link.active { 
+    background-color: #212529; /* Negro/Gris oscuro moderno en lugar de azul llamativo */
+    color: #ffffff; 
+    border-color: #212529;
+    font-weight: 500;
+}
+
+/* Contenedor central de los contenidos de pestañas */
+.tab-content { 
+    background: #ffffff; 
+    border: 1px solid #e9ecef; 
+    border-radius: 8px; 
+    padding: 30px; 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02); 
+}
+
+/* Tarjetas de gráficos minimalistas */
+.chart-card { 
+    border: 1px solid #e9ecef;
+    border-left: 3px solid #212529; 
+    border-radius: 6px;
+    background: #ffffff;
+    transition: all 0.2s ease-in-out; 
+}
+
+.chart-card:hover { 
+    transform: translateY(-2px); 
+    box-shadow: 0 .4rem .8rem rgba(0,0,0,.04); 
+    border-color: #ced4da;
+}
+
+/* Trigger del calendario */
+.ui-datepicker-trigger { 
+    display: inline-block; 
+    padding-left: 6px; 
+    vertical-align: middle; 
+    cursor: pointer; 
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+.ui-datepicker-trigger:hover {
+    opacity: 1;
+}
