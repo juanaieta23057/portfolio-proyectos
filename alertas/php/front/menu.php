@@ -42,7 +42,7 @@ require_once '../backend/menu_data.php';
 </head>
 <body class="bg-light">
 
-<?php include('mem.php'); ?>
+<?php //include('mem.php'); ?>
 
 <div class="container main-container py-4">
     
@@ -101,7 +101,7 @@ require_once '../backend/menu_data.php';
         <div class="tab-pane fade" id="listados-pane" role="tabpanel">
             <h5 class="text-secondary fw-medium fs-6 mb-3">Consulta de Casos</h5>
             <div class="mb-4">
-                <form action="metlist.php" method="get">
+                <form action="list.php" method="get">
                     <button type="submit" name="sbmfecha3" class="btn btn-outline-dark text-start py-2 px-3 w-100 d-flex justify-content-between align-items-center">
                         <span>Ver listado general de todos los casos</span>
                         <span class="text-muted">&rarr;</span>

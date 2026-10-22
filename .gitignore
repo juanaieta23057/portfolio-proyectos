@@ -13,3 +13,7 @@
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Archivos de respaldo temporales
+alertas/php/front/menuB.php
+alertas/php/front/css/menuB.css
